@@ -49,7 +49,7 @@ upgradeItem2.addEventListener(`click`, function() {
         upgradeItem2Text.innerHTML = `${upgradeItem2Cost}$`;
         moneyPerClick++;
         moneyCount.innerHTML = `${money}$`;
-        upgradeItem2Cost = Math.round(upgradeItem2Cost * 1.1);
+        upgradeItem2Cost = Math.round(upgradeItem2Cost * 1.33);
     }
 })
 
