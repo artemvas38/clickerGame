@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url('../img/bg_money_blur.jpg');
+    background-position: 30% 60%;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 10px 20px;
+    font-size: 28px;
+}
+
+.money_count__container {
+    display: flex;
+    align-items: center;
+}
+
+.money_count__container img {
+    width: 40px;
+}
+
+.money_count {
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.company_name__container {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62vh;
+}
+
+.money_button {
+    border: none;
+    background: transparent;
+    padding: 15px;
+}
+
+.money_button_img {
+    width: 140px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    padding-bottom: 20px;
+}
+
+.item_upgrade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_upgrade img {
+    width: 80px;
+}
+
+.item_upgrade span {
+    font-size: 20px;
+}
